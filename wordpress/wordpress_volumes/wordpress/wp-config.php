@@ -75,14 +75,14 @@ define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '2f4497a5e3bb8f30d3c2dc5c62ea05b69c6e8961') );
-define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  '73d38d93f66bcade0565ef6e6cc085a43a003fd2') );
-define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    'ce2dabb20b0a71722c4909a8ee048f5a95fbc271') );
-define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        'b0518e8e4f5a8bd21c6a829f48bd34a32dd144c0') );
-define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '325bce5c54d1f14abd5018d5b58a11d3014a07bf') );
-define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '927f301dd7ec19d016a3635b02a1dc4bbda5f0a0') );
-define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'c6894855b3998595fcb664129edbd3db66febe22') );
-define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '0d9873c519800f0e6bcfd86ad791a16a743d4b16') );
+define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         'e547fb06e10efdd07a0f407f88f9500d45a3014d') );
+define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  'a283799b78bfe627902eb2e9773b8d7214473f7c') );
+define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '39c12cf77a6b472d57f4d1caae5df56e9aa9ae63') );
+define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        '40cfa2fe7598277f64428c0649ab05010e7f5101') );
+define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '3380fba494ad4e5ffdb1fd51c35295435a3e3f0a') );
+define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '9536ca7e209491c50948c0d403dbc6be71a80751') );
+define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   '7b120a559f97ddb129006dc9d30411662db3f6d0') );
+define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '17fdc00944d9f8a161565de92c9b319223f9c5de') );
 // (See also https://wordpress.stackexchange.com/a/152905/199287)
 
 /**#@-*/
@@ -109,7 +109,7 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  */
 define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
 
-/** Add any custom values after this line. */
+/* Add any custom values between this line and the "stop editing" line. */
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
 // see also http://codex.wordpress.org/Administration_Over_SSL#Using_a_Reverse_Proxy
@@ -122,7 +122,7 @@ if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
 	eval($configExtra);
 }
 
-/** Custom values must be above this line. That's all, stop editing! Happy publishing. */
+/* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
