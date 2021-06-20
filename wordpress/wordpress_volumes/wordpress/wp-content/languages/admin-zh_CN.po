@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-08 19:54:26+0000\n"
+"PO-Revision-Date: 2021-06-15 12:16:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1575,7 +1575,7 @@ msgstr "当前没有可用的插件。"
 
 #: wp-admin/includes/image-edit.php:144
 msgid "Restore original image"
-msgstr "恢复原始图像"
+msgstr "恢复原始图片"
 
 #: wp-admin/includes/class-theme-installer-skin.php:377
 #: wp-admin/includes/class-plugin-installer-skin.php:342
@@ -1794,7 +1794,7 @@ msgstr "尚无信息…"
 #. translators: 1: upload_max_filesize, 2: php.ini
 #: wp-admin/includes/file.php:820
 msgid "The uploaded file exceeds the %1$s directive in %2$s."
-msgstr "上传的文件大小超过%1$s文件中定义的%2$s值。"
+msgstr "上传的文件大小超过%2$s文件中定义的%1$s值。"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:221
 msgid "No comments found in Trash."
@@ -1868,7 +1868,7 @@ msgstr "Y"
 #: wp-admin/js/dashboard.js:799 wp-admin/js/dashboard.js:801
 msgctxt "upcoming events day format"
 msgid "j"
-msgstr "j"
+msgstr "j日"
 
 #. translators: Date string for upcoming events. 1: Month, 2: Starting day, 3:
 #. Ending day, 4: Year.
@@ -4446,7 +4446,7 @@ msgstr "这些站点可能会收集关于您的数据、使用cookies、嵌入�
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:538
 msgid "Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website."
-msgstr "此站点上的文章可能会包含嵌入的内容（如视频、图像、文章等）。来自其他站点的嵌入内容的行为和您直接访问这些其他站点没有区别。"
+msgstr "此站点上的文章可能会包含嵌入的内容（如视频、图片、文章等）。来自其他站点的嵌入内容的行为和您直接访问这些其他站点没有区别。"
 
 #. translators: Default privacy policy heading.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:536
@@ -4471,7 +4471,7 @@ msgstr "如果您访问我们的登录页，我们会设置一个临时的cookie
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:525
 msgid "If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year."
-msgstr "如果您在我们的站点上留下评论，您可以选择用cookies保存您的名字、电子邮箱地址和网站网址。这是通过让您可以不用在评论时再次填写相关内容而向您提供方便。这些cookies会保留一年。"
+msgstr "如果您在我们的站点上留下评论，您可以选择用cookies保存您的名字、电子邮箱地址和网站地址。这是通过让您可以不用在评论时再次填写相关内容而向您提供方便。这些cookies会保留一年。"
 
 #. translators: Privacy policy tutorial.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:522
@@ -5150,7 +5150,7 @@ msgstr "%s（分类别名，嵌套的子分类在URL中会显示为嵌套的文�
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:282
 msgid "%s (The sanitized post title (slug).)"
-msgstr "%s（清理过的文章标题（别名）。）"
+msgstr "%s（处理过的文章标题（别名）。）"
 
 #. translators: %s: Permalink structure tag.
 #: wp-admin/options-permalink.php:280
@@ -5473,11 +5473,11 @@ msgstr "（%s个评级）"
 
 #: wp-admin/includes/template.php:2325
 msgid "Current Background Image"
-msgstr "当前背景图像"
+msgstr "当前背景图片"
 
 #: wp-admin/includes/template.php:2305
 msgid "Current Header Image"
-msgstr "当前头部图像"
+msgstr "当前页眉图片"
 
 #: wp-admin/includes/plugin-install.php:338
 msgid "Search plugins..."
@@ -6946,12 +6946,12 @@ msgstr "抱歉，您不能编辑评论。"
 
 #: wp-admin/includes/class-custom-image-header.php:948
 msgid "The current theme does not support a flexible sized header image."
-msgstr "当前主题不支持灵活大小的头部图像。"
+msgstr "当前主题不支持自适应大小的页眉图片。"
 
 #: wp-admin/includes/class-custom-image-header.php:776
 #: wp-admin/includes/class-custom-image-header.php:940
 msgid "The current theme does not support uploading a custom header image."
-msgstr "当前主题不支持上传自定义的头部图像。"
+msgstr "当前主题不支持上传自定义的页眉图片。"
 
 #: wp-admin/includes/user.php:525
 msgid "You&rsquo;re using the auto-generated password for your account. Would you like to change it?"
@@ -7520,7 +7520,7 @@ msgstr "此预览在编辑器中不可用。"
 
 #: wp-admin/edit-form-advanced.php:296
 msgid "You can insert media files by clicking the button above the post editor and following the directions. You can align or edit images using the inline formatting toolbar available in Visual mode."
-msgstr "您可通过点击编辑器之上的按钮并遵循指引来插入媒体文件，您可以使用可视化模式中的格式化工具栏来对齐或编辑您的图像。"
+msgstr "您可通过点击编辑器之上的按钮并遵循指引来插入媒体文件，您可以使用可视化模式中的格式化工具栏来对齐或编辑您的图片。"
 
 #: wp-admin/edit-form-advanced.php:293
 msgid "<strong>Post editor</strong> &mdash; Enter the text for your post. There are two modes of editing: Visual and Text. Choose the mode by clicking on the appropriate tab."
@@ -7717,7 +7717,7 @@ msgstr "在附件页显示。"
 
 #: wp-admin/includes/image-edit.php:214
 msgid "You can edit the image while preserving the thumbnail. For example, you may wish to have a square thumbnail that displays just a section of the image."
-msgstr "您可以编辑图像，并无需影响缩略图。比如，您可能希望有一张只展示图像一部分的方形缩略图。"
+msgstr "您可以编辑图片，并无需影响缩略图。比如，您可能希望有一张只展示图片一部分的方形缩略图。"
 
 #: wp-admin/includes/image-edit.php:176
 msgid "Once you have made your selection, you can adjust it by entering the size in pixels. The minimum selection size is the thumbnail size as set in the Media settings."
@@ -7729,7 +7729,7 @@ msgstr "纵横比是宽与高之间的比值。您可以通过在修改选区时
 
 #: wp-admin/includes/image-edit.php:170
 msgid "To crop the image, click on it and drag to make your selection."
-msgstr "要裁切此图像，点击并拖动来确认您的选择。"
+msgstr "要裁切此图片，点击并拖动来确认您的选择。"
 
 #: wp-admin/includes/image-edit.php:108
 msgid "You can proportionally scale the original image. For best results, scaling should be done before you crop, flip, or rotate. Images can only be scaled down, not up."
@@ -8315,7 +8315,7 @@ msgstr "升级新版本的主题将会导致您所做的修改被覆盖。要避
 
 #: wp-admin/options-media.php:52
 msgid "The sizes listed below determine the maximum dimensions in pixels to use when adding an image to the Media Library."
-msgstr "下面列出来的尺寸决定插入媒体库内的图像之最大尺寸。以像素为单位。"
+msgstr "下面列出来的尺寸决定插入媒体库内的图片之最大尺寸。以像素为单位。"
 
 #: wp-admin/options-discussion.php:182
 msgid "Comment must be manually approved"
@@ -8906,11 +8906,11 @@ msgstr "%s当前正在编辑"
 
 #: wp-admin/edit-form-advanced.php:361
 msgid "You can upload and insert media (images, audio, documents, etc.) by clicking the Add Media button. You can select from the images and files already uploaded to the Media Library, or upload new media to add to your page or post. To create an image gallery, select the images to add and click the &#8220;Create a new gallery&#8221; button."
-msgstr "您可以通过点击“添加媒体”按钮上传或插入多媒体文件（图像、音频、文档等）。您可以从已经上传到媒体库的文件中选择，并直接插入文章，或者上传新的文件，然后再插入。要创建相册，选择要添加的图像，并点击“创建新相册”按钮。"
+msgstr "您可以通过点击“添加媒体”按钮上传或插入多媒体文件（图片、音频、文档等）。您可以从已经上传到媒体库的文件中选择，并直接插入文章，或者上传新的文件，然后再插入。要创建相册，选择要添加的图片，并点击“创建新相册”按钮。"
 
 #: wp-admin/includes/image-edit.php:70
 msgid "Image rotation is not supported by your web host."
-msgstr "您的服务器不支持图像旋转功能。"
+msgstr "您的服务器不支持图片旋转功能。"
 
 #. translators: %s: URL to install the Link Manager plugin.
 #: wp-admin/includes/bookmark.php:347
@@ -8943,7 +8943,7 @@ msgstr "完成后请不要忘记点击“保存更改”按钮！"
 
 #: wp-admin/includes/class-custom-background.php:91
 msgid "To use a background image, simply upload it or choose an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button. You can display a single instance of your image, or tile it to fill the screen. You can have your background fixed in place, so your site content moves on top of it, or you can have it scroll with your site."
-msgstr "要使用背景图像，您需先上传，或从媒体库中已上传过的图像中选择。您可选择令其单次显示，或平铺多次以充满屏幕。您还可以使背景固定不动，站点的内容在其上滚动。也可让背景与站点内容同步滚动。"
+msgstr "要使用背景图片，您需先上传，或从媒体库中已上传过的图片中选择。您可选择令其单次显示，或平铺多次以充满屏幕。您还可以使背景固定不动，站点的内容在其上滚动。也可让背景与站点内容同步滚动。"
 
 #. translators: 1: URL to browser uploader, 2: Additional link attributes.
 #: wp-admin/includes/media.php:3021
@@ -8978,7 +8978,7 @@ msgstr "选择自定义顶部"
 
 #: wp-admin/includes/class-custom-background.php:338
 msgid "Choose a Background Image"
-msgstr "选择背景图像"
+msgstr "选择背景图片"
 
 #: wp-admin/includes/class-custom-image-header.php:127
 msgid "In the Header Text section of this page, you can choose whether to display this text or hide it. You can also choose a color for the text by clicking the Select Color button and either typing in a legitimate HTML hex value, e.g. &#8220;#ff0000&#8221; for red, or by choosing a color using the color picker."
@@ -9218,7 +9218,7 @@ msgstr "创建一个页面与创建一篇文章非常类似，画面亦可使用
 
 #: wp-admin/includes/class-custom-image-header.php:551
 msgid "You can select an image to be shown at the top of your site by uploading from your computer or choosing from your media library. After selecting an image you will be able to crop it."
-msgstr "在这里，您可以上传新图片或从媒体库中已上传的图像中选择，以取代默认的图像。上传完成后，您将可以按喜好自己剪裁图像。"
+msgstr "在这里，您可以上传新图片或从媒体库中已上传的图片中选择，以取代默认的图片。上传完成后，您将可以按喜好自己剪裁图片。"
 
 #: wp-admin/menu-header.php:287
 msgid "Skip to main content"
@@ -9226,7 +9226,7 @@ msgstr "跳至主内容"
 
 #: wp-admin/includes/class-custom-image-header.php:109
 msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
-msgstr "您可为站点选择一个自定义顶部图像。只需上传需要的图像并进行剪裁，新顶部图像将会立即生效。或者您也可以点击“选择图像”，使用“媒体库”中原来上传过的图像。"
+msgstr "您可为站点选择一个自定义页眉图片。只需上传需要的图片并进行剪裁，新顶页眉图片将会立即生效。或者您也可以点击“选择图片”，使用“媒体库”中原来上传过的图片。"
 
 #: wp-admin/includes/class-custom-image-header.php:878
 msgid "Skip Cropping, Publish Image as Is"
@@ -9235,17 +9235,17 @@ msgstr "不剪裁以原样发布"
 #: wp-admin/includes/class-custom-background.php:339
 #: wp-admin/includes/class-custom-image-header.php:632
 msgid "Choose Image"
-msgstr "选择图像"
+msgstr "选择图片"
 
 #: wp-admin/includes/class-custom-background.php:336
 #: wp-admin/includes/class-custom-image-header.php:628
 msgid "Or choose an image from your media library:"
-msgstr "或从您的媒体库中选择图像："
+msgstr "或从您的媒体库中选择图片："
 
 #: wp-admin/includes/class-custom-background.php:326
 #: wp-admin/includes/class-custom-image-header.php:549
 msgid "Select Image"
-msgstr "选择图像"
+msgstr "选择图片"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:394
 #: wp-admin/theme-install.php:527
@@ -9254,7 +9254,7 @@ msgstr "收起"
 
 #: wp-admin/includes/class-custom-image-header.php:112
 msgid "If you don&#8217;t want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
-msgstr "如果您不想要顶部图像，点击本页下方“顶部图像”一节的“移除顶部图像”按钮。移除之后如需再次启用顶部图像功能，您只须选择一个选项，然后点击“保存更改”。"
+msgstr "如果您不想要页眉图片，点击本页下方“页眉图片”一节的“移除页眉图片”按钮。移除之后如需再次启用页眉图片功能，您只须选择一个选项，然后点击“保存更改”。"
 
 #: wp-admin/media.php:70
 msgid "You attempted to edit an item that isn&#8217;t an attachment. Please go back and try again."
@@ -9306,15 +9306,15 @@ msgstr "大多数主题的顶部文字显示的是“站点标题”和“副标
 
 #: wp-admin/includes/class-custom-image-header.php:111
 msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
-msgstr "如果您有多张顶部图像，您可以选择让WordPress每次随机展示其中一张图像。如需实现这种效果，勾选“已上传的图像”旁边的“随机”单选框。"
+msgstr "如果您有多张页眉图片，您可以选择让 WordPress 每次随机展示其中一张图片。如需实现这种效果，勾选“已上传的图片”旁边的“随机”单选框。"
 
 #: wp-admin/includes/class-custom-image-header.php:110
 msgid "Some themes come with additional header images bundled. If you see multiple images displayed, select the one you&#8217;d like and click the &#8220;Save Changes&#8221; button."
-msgstr "一些主题附带了更多顶部图像供您选择。若显示了多幅图像，请选择您喜爱的图像并点击“保存更改”。"
+msgstr "一些主题附带了更多的页眉图片供您选择。若显示了多幅图片，请选择您喜爱的图片并点击“保存更改”。"
 
 #: wp-admin/includes/class-custom-image-header.php:100
 msgid "You can choose from the theme&#8217;s default header images, or use one of your own. You can also customize how your Site Title and Tagline are displayed."
-msgstr "您可以从主题默认的顶部图像中选择，或使用您自己准备的顶部图像。您还可以定义“站点标题”和“副标题”的显示方式。"
+msgstr "您可以从主题默认的页眉图片中选择，或使用您自己准备的页眉图片。您还可以定义“站点标题”和“副标题”的显示方式。"
 
 #: wp-admin/includes/class-custom-image-header.php:99
 msgid "This screen is used to customize the header section of your theme."
@@ -9493,7 +9493,7 @@ msgstr "该主题需要父主题的支持。正在检查是否安装了正确的
 
 #: wp-admin/includes/class-custom-image-header.php:710
 msgid "Show header text with your image."
-msgstr "将顶部文字和图像一并显示。"
+msgstr "将页眉文本和图片一并显示。"
 
 #: wp-admin/includes/class-custom-image-header.php:119
 #: wp-admin/includes/class-custom-image-header.php:702
@@ -9814,13 +9814,13 @@ msgstr "有一个自动保存的版本比如下显示的版本还要新。<a hre
 
 #: wp-admin/options-discussion.php:220
 msgid "An avatar is an image that follows you from weblog to weblog appearing beside your name when you comment on avatar enabled sites. Here you can enable the display of avatars for people who comment on your site."
-msgstr "头像是您在各个博客见通用的图像。在每个启用了头像功能的站点上，它将显示在您的名字旁边。在这里您可以启用您站点上的读者评论头像显示功能。"
+msgstr "头像是您在各个博客见通用的图片。在每个启用了头像功能的站点上，它将显示在您的名字旁边。在这里您可以启用您站点上的读者评论头像显示功能。"
 
 #: wp-admin/includes/class-custom-image-header.php:838
 #: wp-admin/includes/class-custom-image-header.php:981
 #: wp-admin/includes/class-custom-image-header.php:1317
 msgid "Image could not be processed. Please go back and try again."
-msgstr "无法处理图像。请返回重试。"
+msgstr "无法处理图片。请返回重试。"
 
 #: wp-admin/themes.php:262
 msgid "The active theme is broken. Reverting to the default theme."
@@ -10296,7 +10296,7 @@ msgstr "<a href=\"%1$s\" class=\"update-browser-link\">升级您的%2$s</a>，�
 #. translators: 1: Link start tag, 2: Link end tag, 3: Width, 4: Height.
 #: wp-admin/includes/media.php:3070
 msgid "Scale images to match the large size selected in %1$simage options%2$s (%3$d &times; %4$d)."
-msgstr "按照%1$s图像选项%2$s的设置，将图像剪裁到“大尺寸”（%3$d &times; %4$d）。"
+msgstr "按照%1$s图片选项%2$s的设置，将图片剪裁到“大尺寸”（%3$d &times; %4$d）。"
 
 #: wp-admin/includes/media.php:2929
 msgid "Audio, Video, or Other File"
@@ -10627,11 +10627,11 @@ msgstr "占满宽度的模板"
 
 #: wp-admin/includes/theme.php:312
 msgid "Featured Images"
-msgstr "特色图像"
+msgstr "特色图片"
 
 #: wp-admin/includes/theme.php:311
 msgid "Featured Image Header"
-msgstr "顶部特色图像"
+msgstr "页眉特色图片"
 
 #. translators: %s: Browser name and link.
 #: wp-admin/includes/dashboard.php:1631
@@ -10774,15 +10774,15 @@ msgstr "您的自由"
 
 #: wp-admin/includes/class-custom-image-header.php:665
 msgid "You can use one of these cool headers or show a random one on each page."
-msgstr "您可现在从这些精美的顶部图像中选择，或让WordPress在每次显示页面时随机挑选。"
+msgstr "您可以从这些精美的页眉图片中选择，或让WordPress在每次显示页面时随机挑选。"
 
 #: wp-admin/includes/class-custom-image-header.php:663
 msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
-msgstr "若您现在不想上传您自己的图像，可从这些精美的顶部图像中选择，或让WordPress在每次显示页面时随机挑选。"
+msgstr "若您现在不想上传您自己的图片，可从这些精美的页眉图片中选择，或让WordPress在每次显示页面时随机挑选。"
 
 #: wp-admin/includes/class-custom-image-header.php:649
 msgid "You can choose one of your previously uploaded headers, or show a random one."
-msgstr "您可以从上传过的顶部图像中选择，或让WordPress在每次显示页面时随机挑选。"
+msgstr "您可以从上传过的页眉图片中选择，或让WordPress在每次显示页面时随机挑选。"
 
 #: wp-admin/menu-header.php:280
 msgid "Collapse menu"
@@ -10790,11 +10790,11 @@ msgstr "收起菜单"
 
 #: wp-admin/includes/class-custom-image-header.php:647
 msgid "Uploaded Images"
-msgstr "已上传的图像"
+msgstr "已上传的图片"
 
 #: wp-admin/includes/class-custom-image-header.php:294
 msgid "<strong>Random:</strong> Show a different image on each page."
-msgstr "<strong>随机：</strong>在每个页面上显示不同的图像。"
+msgstr "<strong>随机：</strong>在每个页面上显示不同的图片。"
 
 #: wp-admin/includes/theme.php:321 wp-admin/includes/theme.php:357
 #: wp-admin/includes/class-wp-screen.php:1207 wp-admin/index.php:68
@@ -11032,7 +11032,7 @@ msgstr "裁切图片：请点击图片，并将裁切选区调整至您希望裁
 
 #: wp-admin/media.php:88 wp-admin/edit-form-advanced.php:347
 msgid "For images only, you can click on Edit Image under the thumbnail to expand out an inline image editor with icons for cropping, rotating, or flipping the image as well as for undoing and redoing. The boxes on the right give you more options for scaling the image, for cropping it, and for cropping the thumbnail in a different way than you crop the original image. You can click on Help in those boxes to get more information."
-msgstr "对于图片，您可点击缩略图下方的“编辑图像”，之后就会弹出一个快捷图片编辑器——您可以裁切、旋转、翻转图片。您还可以撤销或重做操作。在编辑器的右侧，您可以对图片剪裁等进行更详尽的设置。您可以点击“帮助”以了解更多。"
+msgstr "对于图片，您可点击缩略图下方的“编辑图片”，之后就会弹出一个快捷图片编辑器——您可以裁切、旋转、翻转图片。您还可以撤销或重做操作。在编辑器的右侧，您可以对图片剪裁等进行更详尽的设置。您可以点击“帮助”以了解更多。"
 
 #: wp-admin/media.php:87 wp-admin/edit-form-advanced.php:346
 msgid "This screen allows you to edit fields for metadata in a file within the media library."
@@ -11066,7 +11066,7 @@ msgstr "再次检查。"
 #. translators: 1: Date, 2: Time.
 #: wp-admin/update-core.php:1011
 msgid "Last checked on %1$s at %2$s."
-msgstr "最后检查时间：%1$s%2$s。"
+msgstr "最后检查时间：%1$s %2$s。"
 
 #: wp-admin/update-core.php:992
 msgid "Please select one or more plugins to update."
@@ -11188,7 +11188,7 @@ msgstr "创建新站点"
 #. translators: 1: Image width in pixels, 2: Image height in pixels.
 #: wp-admin/includes/class-custom-image-header.php:555
 msgid "Images of exactly <strong>%1$d &times; %2$d pixels</strong> will be used as-is."
-msgstr "使用图像的<strong>%1$d &times; %2$d像素</strong>。"
+msgstr "使用图片的<strong>%1$d &times; %2$d像素</strong>。"
 
 #: wp-admin/includes/class-custom-image-header.php:875
 msgid "Crop and Publish"
@@ -11508,11 +11508,11 @@ msgstr "您可以使用分类来定义您站点的分区结构，并可以按不
 
 #: wp-admin/includes/class-custom-image-header.php:857
 msgid "You need JavaScript to choose a part of the image."
-msgstr "您需要JavaScript支持以选择图像的一部分。"
+msgstr "您需要JavaScript支持以选择图片的一部分。"
 
 #: wp-admin/includes/class-custom-image-header.php:853
 msgid "Crop Header Image"
-msgstr "剪裁顶部图像"
+msgstr "剪裁页眉图片"
 
 #: wp-admin/includes/class-custom-image-header.php:905
 msgid "Image Upload Error"
@@ -11520,27 +11520,27 @@ msgstr "图片上传发生错误"
 
 #: wp-admin/includes/class-custom-image-header.php:693
 msgid "Restore Original Header Image"
-msgstr "重设顶部图像"
+msgstr "重设页眉图片"
 
 #: wp-admin/includes/class-custom-image-header.php:692
 msgid "This will restore the original header image. You will not be able to restore any customizations."
-msgstr "这将重设顶部图像。之后，您将无法还原任何自定义元素。"
+msgstr "这将重置页眉图片。之后，您将无法还原任何自定义元素。"
 
 #: wp-admin/includes/class-custom-image-header.php:690
 msgid "Reset Image"
-msgstr "重置图像"
+msgstr "重置图片"
 
 #: wp-admin/includes/class-custom-image-header.php:680
 msgid "Remove Header Image"
-msgstr "移除顶部图像"
+msgstr "移除页眉图片"
 
 #: wp-admin/includes/class-custom-image-header.php:679
 msgid "This will remove the header image. You will not be able to restore any customizations."
-msgstr "这将移除顶部图像。之后，您将无法还原任何自定义元素。"
+msgstr "这将移除页眉图片。之后，您将无法还原任何自定义元素。"
 
 #: wp-admin/includes/class-custom-image-header.php:660
 msgid "Default Images"
-msgstr "默认图像"
+msgstr "默认图图片"
 
 #: wp-admin/includes/class-wp-comments-list-table.php:759
 #: wp-admin/includes/dashboard.php:735
@@ -11627,7 +11627,7 @@ msgstr "标记为垃圾评论"
 
 #: wp-admin/includes/class-custom-background.php:303
 msgid "Remove Background Image"
-msgstr "删除背景图像"
+msgstr "移除背景图片"
 
 #. translators: %s: Post title.
 #. translators: %s: Link to post.
@@ -11667,7 +11667,7 @@ msgstr "不是垃圾评论"
 
 #: wp-admin/includes/class-custom-background.php:318
 msgid "This will restore the original background image. You will not be able to restore any customizations."
-msgstr "这将恢复原始背景图像。您将无法还原任何自定义元素。"
+msgstr "这将恢复原始背景图图片。您将无法还原任何自定义元素。"
 
 #: wp-admin/includes/dashboard.php:1477
 msgid "WordPress Blog"
@@ -11743,7 +11743,7 @@ msgstr "显示选项"
 #: wp-admin/includes/class-custom-background.php:299
 #: wp-admin/includes/class-custom-image-header.php:677
 msgid "Remove Image"
-msgstr "移除图像"
+msgstr "移除图片"
 
 #: wp-admin/users.php:584
 msgid "Other users have been removed."
@@ -11832,7 +11832,7 @@ msgstr "以下插件有可用更新，点选需要升级的插件，然后点击
 
 #: wp-admin/includes/class-custom-background.php:304
 msgid "This will remove the background image. You will not be able to restore any customizations."
-msgstr "这将移除背景图像。之后，您将无法还原任何自定义元素。"
+msgstr "这将移除背景图片。之后，您将无法还原任何自定义元素。"
 
 #. translators: %s: Network title.
 #: wp-admin/includes/class-wp-themes-list-table.php:132
@@ -12648,7 +12648,7 @@ msgstr "让WordPress自动校正嵌套错误的XHTML代码"
 
 #: wp-admin/options-writing.php:72
 msgid "Convert emoticons like <code>:-)</code> and <code>:-P</code> to graphics on display"
-msgstr "转换如<code>:-)</code>、<code>:-P</code>等文本表情符号为图像"
+msgstr "转换如<code>:-)</code>、<code>:-P</code>等文字表情符号为图片"
 
 #: wp-admin/options-writing.php:68 wp-admin/options-writing.php:69
 msgid "Formatting"
@@ -12798,7 +12798,7 @@ msgstr "缩略图大小"
 
 #: wp-admin/options-media.php:51
 msgid "Image sizes"
-msgstr "图像大小"
+msgstr "图片大小"
 
 #: wp-admin/options-media.php:16
 msgid "Media Settings"
@@ -13683,7 +13683,7 @@ msgstr "RSS地址"
 
 #: wp-admin/includes/meta-boxes.php:1349
 msgid "Image Address"
-msgstr "图像地址"
+msgstr "图片地址"
 
 #: wp-admin/includes/meta-boxes.php:1334
 msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"https://gmpg.org/xfn/\">XFN</a>."
@@ -13914,15 +13914,15 @@ msgstr "链接的文字，例如：“赎金要求（PDF）”"
 
 #: wp-admin/includes/media.php:2981
 msgid "Link to image"
-msgstr "链接到图像"
+msgstr "链接到图片"
 
 #: wp-admin/includes/media.php:2976
 msgid "Link Image To:"
-msgstr "将图像链接到："
+msgstr "将图片链接到："
 
 #: wp-admin/includes/media.php:2906
 msgid "Image Caption"
-msgstr "图像说明"
+msgstr "图片说明"
 
 #: wp-admin/includes/media.php:2858
 msgid "Filter &#187;"
@@ -13962,11 +13962,11 @@ msgstr "菜单排序"
 
 #: wp-admin/includes/media.php:2618
 msgid "Order images by:"
-msgstr "图像排序依据："
+msgstr "图片排序依据："
 
 #: wp-admin/includes/media.php:2608
 msgid "Image File"
-msgstr "图像文件"
+msgstr "图片文件"
 
 #: wp-admin/includes/media.php:2603
 msgid "Link thumbnails to:"
@@ -14027,7 +14027,7 @@ msgstr "文件名返回了空的标题。"
 
 #: wp-admin/includes/media.php:1476 wp-admin/includes/media.php:2957
 msgid "Alt text for the image, e.g. &#8220;The Mona Lisa&#8221;"
-msgstr "图像的替代文本，例如“蒙娜丽莎”"
+msgstr "图片的替代文字，例如“蒙娜丽莎”"
 
 #: wp-admin/includes/media.php:1254 wp-admin/includes/media.php:1415
 msgid "File URL"
@@ -14061,39 +14061,39 @@ msgstr "从计算机"
 
 #: wp-admin/includes/image-edit.php:995
 msgid "Image saved"
-msgstr "图像已保存"
+msgstr "图片已保存"
 
 #: wp-admin/includes/image-edit.php:867
 msgid "Unable to save the image."
-msgstr "未能保存图像。"
+msgstr "未能保存图片。"
 
 #: wp-admin/includes/image-edit.php:818
 msgid "Nothing to save, the image has not changed."
-msgstr "没有可供保存的内容，因此没有修改图像。"
+msgstr "无需保存，图片未被更改。"
 
 #: wp-admin/includes/image-edit.php:809
 msgid "Error while saving the scaled image. Please reload the page and try again."
-msgstr "保存缩放后的图片图像时发生错误，请刷新后再试。"
+msgstr "保存缩放后的图片时发生错误，请刷新后再试。"
 
 #: wp-admin/includes/image-edit.php:785
 msgid "Unable to create new image."
-msgstr "未能创建新图像。"
+msgstr "未能创建新图片。"
 
 #: wp-admin/includes/image-edit.php:758
 msgid "Image restored successfully."
-msgstr "图像还原成功。"
+msgstr "图片还原成功。"
 
 #: wp-admin/includes/image-edit.php:756
 msgid "Image metadata is inconsistent."
-msgstr "图像属性不正确。"
+msgstr "图片属性不正确。"
 
 #: wp-admin/includes/image-edit.php:751
 msgid "Cannot save image metadata."
-msgstr "无法保存图像属性。"
+msgstr "无法保存图片属性。"
 
 #: wp-admin/includes/image-edit.php:691
 msgid "Cannot load image metadata."
-msgstr "无法载入图像属性。"
+msgstr "无法载入图片属性。"
 
 #: wp-admin/includes/image-edit.php:239
 msgid "All sizes except thumbnail"
@@ -14101,7 +14101,7 @@ msgstr "除缩略图外所有尺寸"
 
 #: wp-admin/includes/image-edit.php:229
 msgid "All image sizes"
-msgstr "所有图像大小"
+msgstr "所有图片大小"
 
 #: wp-admin/includes/image-edit.php:225
 msgid "Apply changes to:"
@@ -14133,11 +14133,11 @@ msgstr "按比例裁切"
 
 #: wp-admin/includes/image-edit.php:166
 msgid "Image Crop"
-msgstr "图像裁切"
+msgstr "图片裁切"
 
 #: wp-admin/includes/image-edit.php:156
 msgid "Restore image"
-msgstr "还原图像"
+msgstr "还原图片"
 
 #: wp-admin/includes/image-edit.php:151
 msgid "Previously edited copies of the image will not be deleted."
@@ -14150,7 +14150,7 @@ msgstr "放弃所有变更，并恢复到原始图片。"
 #: wp-admin/includes/class-custom-background.php:313
 #: wp-admin/includes/class-custom-background.php:317
 msgid "Restore Original Image"
-msgstr "还原原始图像"
+msgstr "还原原始图片"
 
 #. translators: %s: Image width and height in pixels.
 #: wp-admin/includes/image-edit.php:115
@@ -14159,7 +14159,7 @@ msgstr "原始尺寸%s"
 
 #: wp-admin/includes/image-edit.php:105
 msgid "Scale Image"
-msgstr "拉伸图像"
+msgstr "拉伸图片"
 
 #: wp-admin/includes/image-edit.php:77
 msgid "Flip horizontal"
@@ -14171,7 +14171,7 @@ msgstr "垂直翻转"
 
 #: wp-admin/includes/image-edit.php:28 wp-admin/includes/image-edit.php:826
 msgid "Image data does not exist. Please re-upload the image."
-msgstr "图像数据不存在，请重新上传图像。"
+msgstr "图片数据不存在，请重新上传图片。"
 
 #: wp-admin/includes/file.php:2304
 msgid "Proceed"
@@ -15001,12 +15001,12 @@ msgstr "编辑“%s”"
 
 #: wp-admin/includes/class-custom-image-header.php:856
 msgid "Choose the part of the image you want to use as your header."
-msgstr "从图像中选取一部分作为您的页面顶部图像。"
+msgstr "从图片中选取一部分作为您的页眉图片。"
 
 #: wp-admin/includes/class-custom-image-header.php:838
 #: wp-admin/includes/class-custom-image-header.php:981
 msgid "Image Processing Error"
-msgstr "图像处理发生错误"
+msgstr "图片处理发生错误"
 
 #. translators: %s: Home URL.
 #: wp-admin/includes/class-custom-image-header.php:496
@@ -15026,7 +15026,7 @@ msgstr "保存更改"
 #: wp-admin/includes/class-custom-background.php:329
 #: wp-admin/includes/class-custom-image-header.php:609
 msgid "Choose an image from your computer:"
-msgstr "从您的计算机中选择图像："
+msgstr "从您的计算机中选择图片："
 
 #. translators: %s: Home URL.
 #: wp-admin/includes/class-custom-background.php:247

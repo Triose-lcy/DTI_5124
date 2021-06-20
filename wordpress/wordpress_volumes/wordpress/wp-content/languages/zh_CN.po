@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-06-06 04:53:56+0000\n"
+"PO-Revision-Date: 2021-06-15 11:22:59+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -221,19 +221,19 @@ msgstr "事件时间戳必须是一个有效的UNIX时间戳。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1428
 msgid "As a percentage of the image, the height to crop the image to. DEPRECATED: Use `modifiers` instead."
-msgstr "图像所裁剪到的高度占图像的百分比。已弃用：请改为使用`modifiers`参数。"
+msgstr "裁剪高度以图片所站用的百分比计算。已弃用。使用`modifiers`代替。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1422
 msgid "As a percentage of the image, the width to crop the image to. DEPRECATED: Use `modifiers` instead."
-msgstr "图像所裁剪到的宽度占图像的百分比。已弃用：请改为使用`modifiers`参数。"
+msgstr "裁剪宽度以图片所占用的百分比计算。已弃用。使用`modifiers`代替。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1416
 msgid "As a percentage of the image, the y position to start the crop from. DEPRECATED: Use `modifiers` instead."
-msgstr "图像所开始裁剪的y轴坐标占图像的百分比。已弃用：请改为使用`modifiers`参数。"
+msgstr "从 Y 轴开始裁剪的位置以占用图片的百分比计算。已弃用。使用`modifiers`代替。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1410
 msgid "As a percentage of the image, the x position to start the crop from. DEPRECATED: Use `modifiers` instead."
-msgstr "图像所开始裁剪的x轴坐标占图像的百分比。已弃用：请改为使用`modifiers`参数。"
+msgstr "从 X 轴开始裁剪的位置以占用图片的百分比计算。已弃用。使用`modifiers`代替。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1402
 msgid "The amount to rotate the image clockwise in degrees. DEPRECATED: Use `modifiers` instead."
@@ -241,19 +241,19 @@ msgstr "顺时针旋转的角度量。已弃用：请改为使用`modifiers`参�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1391
 msgid "Height of the crop as a percentage of the image height."
-msgstr "图像所裁剪到的高度占原图像高度的百分比。"
+msgstr "裁剪的高度以占用图片高度的百分比计算。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1387
 msgid "Width of the crop as a percentage of the image width."
-msgstr "图像所裁剪到的宽度占原图像宽度的百分比。"
+msgstr "裁剪宽度以占用图片宽度的百分比计算。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1383
 msgid "Vertical position from the top to begin the crop as a percentage of the image height."
-msgstr "图像所开始裁剪的垂直位置占原图像高度的百分比。"
+msgstr "从顶部开始裁剪的垂直位置以占用图片高度的百分比计算。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1379
 msgid "Horizontal position from the left to begin the crop as a percentage of the image width."
-msgstr "图像所开始裁剪的水平位置占原图像宽度的百分比。"
+msgstr "从左边开始裁剪的水平位置以占用图片宽度的百分比计算。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1369
 msgid "Crop arguments."
@@ -281,11 +281,11 @@ msgstr "旋转"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1330
 msgid "Image edit."
-msgstr "图像编辑"
+msgstr "图片编辑"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1326
 msgid "Array of image edits."
-msgstr "图像编辑参数数组。"
+msgstr "图片编辑数组。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-application-passwords-controller.php:522
 msgid "Cannot introspect Application Password."
@@ -439,7 +439,7 @@ msgstr "[%s] 新站点已创建"
 #. translators: %s: PHP function name.
 #: wp-includes/class-wp-image-editor-imagick.php:742
 msgid "%s failed while writing image to stream."
-msgstr "%s将图像写入流时失败。"
+msgstr "%s将图片写入流时失败。"
 
 #: wp-includes/user.php:438
 msgid "The provided password is an invalid application password."
@@ -789,7 +789,7 @@ msgstr "著名贵族唐·吉诃德的品行与行为"
 #: wp-includes/block-patterns/quote.php:13
 msgctxt "Block pattern description"
 msgid "A quote and citation with an image above, and a separator at the bottom."
-msgstr "上方有图像、下方有分隔线的引文。"
+msgstr "上方有图片、下方有分隔线的引文。"
 
 #: wp-includes/block-patterns/quote.php:10
 msgid "\"Do you see over yonder, friend Sancho, thirty or forty hulking giants? I intend to do battle with them and slay them.\""
@@ -854,7 +854,7 @@ msgstr "著名贵族唐·吉诃德的品行与行为"
 #: wp-includes/block-patterns/large-header.php:13
 msgctxt "Block pattern description"
 msgid "A large hero section with an example background image and a heading in the center."
-msgstr "带有示例背景图像及居中标题的大型宣传图像区段。"
+msgstr "带有示例背景图片及居中标题的大型宣传图片区段。"
 
 #: wp-includes/block-patterns/large-header.php:10
 msgid "Don Quixote"
@@ -885,7 +885,7 @@ msgstr "唐·吉诃德及桑·丘潘萨骑乘他们的马匹的古老铅笔画�
 #: wp-includes/block-patterns/two-images.php:11
 msgctxt "Block pattern description"
 msgid "An image gallery with two example images."
-msgstr "包含两张示例图像的相册。"
+msgstr "包含两张示例图片的相册。"
 
 #: wp-includes/block-patterns/large-header-button.php:13
 msgctxt "Block pattern description"
@@ -1305,23 +1305,23 @@ msgstr "请考虑编写更具包容性的代码。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1320
 msgid "URL to the edited image file."
-msgstr "已编辑图像文件的URL。"
+msgstr "已经编辑的图片文件 的URL。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:542
 msgid "Unable to crop this image."
-msgstr "无法裁剪此图像。"
+msgstr "无法裁剪此图片。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:520
 msgid "Unable to rotate this image."
-msgstr "无法旋转此图像。"
+msgstr "无法旋转此图片。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:502
 msgid "Unable to edit this image."
-msgstr "无法编辑此图像。"
+msgstr "无法编辑此图片。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:481
 msgid "The image was not edited. Edit the image before applying the changes."
-msgstr "图像未被编辑。在应用更改之前编辑图像。"
+msgstr "图片未被编辑。请在应用更改前编辑图片。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:446
 msgid "This type of file cannot be edited."
@@ -1828,7 +1828,7 @@ msgstr "<strong>错误：</strong>当前的WordPress和PHP版本不符合%s的�
 
 #: wp-includes/script-loader.php:892
 msgid "This image cannot be displayed in a web browser. For best results convert it to JPEG before uploading."
-msgstr "此图像无法在网页浏览器中显示。 为了达到最佳效果，请在上传前将其转换为JPEG格式。"
+msgstr "此图片无法在网页浏览器中显示。 为了达到最佳效果，请在上传前将其转换为JPEG格式。"
 
 #: wp-includes/admin-bar.php:314
 msgid "Edit Profile"
@@ -1930,7 +1930,7 @@ msgstr "抱歉，此文章不能被更新。"
 
 #: wp-includes/media.php:4463 wp-includes/js/dist/block-library.js:24844
 msgid "Select poster image"
-msgstr "选择海报图像"
+msgstr "选择海报图片"
 
 #: wp-includes/js/dist/edit-post.js:7422 wp-admin/edit-form-advanced.php:145
 msgid "View post"
@@ -2026,7 +2026,7 @@ msgstr "过滤器%s返回了包含保留名称的项目。"
 #: wp-includes/media-template.php:441 wp-includes/media-template.php:664
 #: wp-admin/includes/media.php:3472
 msgid "Original image:"
-msgstr "原始图像："
+msgstr "原始图片："
 
 #: wp-includes/cron.php:1053
 msgid "Once Weekly"
@@ -2141,7 +2141,7 @@ msgstr "3"
 
 #: wp-includes/script-loader.php:877
 msgid "Post-processing of the image failed likely because the server is busy or does not have enough resources. Uploading a smaller image may help. Suggested maximum size is 2500 pixels."
-msgstr "图像后期处理失败，可能是服务器忙或没有足够的资源。请尝试上传较小的文件。推荐的最大尺寸为2500像素。"
+msgstr "图片后期处理失败，可能是服务器忙或没有足够的资源。请尝试上传较小的文件。推荐的最大尺寸为2500像素。"
 
 #: wp-login.php:740
 msgid "Please enter your username or email address. You will receive an email message with instructions on how to reset your password."
@@ -2169,7 +2169,7 @@ msgstr "归档"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:941
 msgid "List of the missing image sizes of the attachment."
-msgstr "附件缺少的图像尺寸列表。"
+msgstr "附件缺少的图片尺寸列表。"
 
 #: wp-includes/user.php:231 wp-includes/user.php:350
 msgid "Unknown email address. Check again or try your username."
@@ -2312,7 +2312,7 @@ msgstr "此站点遇到了致命错误，现在正运行在恢复模式。请检
 
 #: wp-includes/class-wp-image-editor-imagick.php:643
 msgid "The image cannot be rotated because the embedded meta data cannot be updated."
-msgstr "此图像不能被旋转，因为其内嵌的元数据无法被更新。"
+msgstr "此图片无法旋转，因为其内嵌的元数据无法更新。"
 
 #: wp-includes/user.php:3455
 msgid "User&#8217;s profile data."
@@ -2495,11 +2495,11 @@ msgstr "20"
 #: wp-includes/class-wp-image-editor-imagick.php:475
 #: wp-includes/class-wp-image-editor-gd.php:267
 msgid "Cannot resize the image. Both width and height are not set."
-msgstr "未能缩放此图像，宽和高均未被设置。"
+msgstr "未能缩放此图片，宽和高均未被设置。"
 
 #: wp-includes/media-template.php:1158
 msgid "Image size in pixels"
-msgstr "图像的像素尺寸"
+msgstr "图片的像素尺寸"
 
 #: wp-includes/media-template.php:597
 msgid "Media title&hellip;"
@@ -2570,7 +2570,7 @@ msgstr "未能将项目分类法加入数据库。"
 #. Accessibility text.
 #: wp-includes/media-template.php:161 wp-admin/includes/media.php:3219
 msgid "<a href=\"%1$s\" %2$s>Describe the purpose of the image%3$s</a>. Leave empty if the image is purely decorative."
-msgstr "<a href=\"%1$s\" %2$s>描述此图像的用途%3$s</a>。如此图像仅作装饰用，请留空。"
+msgstr "<a href=\"%1$s\" %2$s>描述此图片的用途%3$s</a>。如此图片仅作装饰用，请留空。"
 
 #. translators: %s: Theme name.
 #: wp-includes/class-wp-recovery-mode-email-service.php:280
@@ -2853,7 +2853,7 @@ msgstr "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 #. widget preview.
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:218
 msgid "Additional images added to this gallery: %s"
-msgstr "添加至此相册的额外图像：%s"
+msgstr "添加至此相册的其他图片：%s"
 
 #. translators: %s: The image file name.
 #. Translators: %s: The selected image filename.
@@ -2861,7 +2861,7 @@ msgstr "添加至此相册的额外图像：%s"
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:204
 #: wp-includes/js/dist/editor.js:7198
 msgid "The current image has no alternative text. The file name is: %s"
-msgstr "当前图像没有替代文本。文件名是：%s"
+msgstr "当前图片没有替代文字。文件名为：%s"
 
 #: wp-includes/admin-bar.php:1101
 msgid "Exit Recovery Mode"
@@ -2903,7 +2903,7 @@ msgstr "缺少请求ID。"
 
 #: wp-login.php:149
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
-msgstr "出于无障碍访问的考虑，我们不推荐在登录图标上使用title属性。请使用链接文本。"
+msgstr "出于无障碍访问的考虑，我们不推荐在登录标志上使用title属性。请改用链接文字。"
 
 #: wp-includes/functions.php:7576
 msgid "Update PHP"
@@ -3098,7 +3098,7 @@ msgstr "开始写作或按/来选择区块"
 #: wp-includes/media.php:4439 wp-includes/js/dist/block-library.js:5388
 #: wp-includes/js/dist/block-library.js:5389
 msgid "Edit image"
-msgstr "编辑图像"
+msgstr "编辑图片"
 
 #: wp-includes/block-patterns/large-header-button.php:10
 #: wp-includes/block-patterns/large-header.php:10
@@ -3142,7 +3142,7 @@ msgstr "提交复审"
 
 #: wp-includes/media.php:4437 wp-includes/js/dist/block-library.js:8176
 msgid "Replace image"
-msgstr "更换图像"
+msgstr "更换图片"
 
 #: wp-includes/js/dist/editor.js:6977 wp-admin/includes/meta-boxes.php:801
 msgid "Allow comments"
@@ -3557,7 +3557,7 @@ msgstr "抹除个人数据"
 
 #: wp-includes/comment-template.php:2404
 msgid "Save my name, email, and website in this browser for the next time I comment."
-msgstr "在此浏览器中保存我的显示名称、邮箱地址和网站网址，以便下次评论时使用。"
+msgstr "在此浏览器中保存我的显示名称、邮箱地址和网站地址，以便下次评论时使用。"
 
 #: wp-includes/user.php:3372
 msgid "User Description"
@@ -4025,11 +4025,11 @@ msgstr "链接至："
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:38
 msgid "No images selected"
-msgstr "未选择图像"
+msgstr "未选择图片"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:30
 msgid "Displays an image gallery."
-msgstr "显示图像画廊。"
+msgstr "显示图片画廊。"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:28
 #: wp-includes/js/dist/editor.js:7367 wp-includes/js/dist/block-library.js:8662
@@ -4564,7 +4564,7 @@ msgstr "是时候加入一些链接了！点击“%s”来将页面、分类和�
 #: wp-includes/media.php:4442
 #: wp-includes/customize/class-wp-customize-media-control.php:252
 msgid "Choose image"
-msgstr "选择图像"
+msgstr "选择图片"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:241
 msgid "Choose audio"
@@ -4582,21 +4582,21 @@ msgstr "选择音频"
 #. translators: %s: Header height in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:219
 msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header height of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
-msgstr "点击“添加新图像”来从您的计算机上传图像文件。页眉图像高度为%s像素时最适合您的主题，您可以在上传后裁剪您的图像以获得最佳尺寸。"
+msgstr "点击“新增图片”以从您的计算机上传图片文件。页眉图片高度为%s像素时最适合您的主题，您可以在上传后对图片进行裁剪以获得最佳尺寸。"
 
 #. translators: %s: Header width in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:213
 msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header width of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
-msgstr "点击“添加新图像”来从您的计算机上传图像文件。页眉图像宽度为%s像素时最适合您的主题，您可以在上传后裁剪您的图像以获得最佳尺寸。"
+msgstr "点击“新增图片”以从您的计算机上传图片文件。页眉图片宽度为%s像素时最适合您的主题，您可以在上传后对图片进行裁剪以获得最佳尺寸。"
 
 #. translators: %s: Header size in pixels.
 #: wp-includes/customize/class-wp-customize-header-image-control.php:207
 msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image with a header size of %s pixels &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
-msgstr "点击“添加新图像”来从您的计算机上传图像文件。页眉图像尺寸为%s像素时最适合您的主题，您可以在上传后裁剪您的图像以获得最佳尺寸。"
+msgstr "点击“新增图片”以从您的计算机上传图片文件。页眉图片尺寸为%s像素时最适合您的主题，您可以在上传后对图片进行裁剪以获得最佳尺寸。"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:203
 msgid "Click &#8220;Add new image&#8221; to upload an image file from your computer. Your theme works best with an image that matches the size of your video &#8212; you&#8217;ll be able to crop your image once you upload it for a perfect fit."
-msgstr "点击“添加新图像”来从您的计算机上传图像文件。对应您的视频尺寸的图像最适合您的主题，您可以在上传后裁剪您的图像来适应尺寸。"
+msgstr "点击“新增图片”以从您的计算机上传图片文件。对应您的视频尺寸的图片最适合您的主题，您可以在上传后对图片进行裁剪以适应尺寸。"
 
 #. translators: 1: Month number (01, 02, etc.), 2: Month abbreviation.
 #: wp-includes/customize/class-wp-customize-date-time-control.php:204
@@ -4891,7 +4891,7 @@ msgstr "添加视频"
 #: wp-includes/widgets/class-wp-widget-media-image.php:39
 msgctxt "label for button in the image widget"
 msgid "Add Image"
-msgstr "添加图像"
+msgstr "添加图片"
 
 #: wp-includes/widgets/class-wp-widget-media-audio.php:39
 msgctxt "label for button in the audio widget"
@@ -5014,7 +5014,7 @@ msgstr "替换视频"
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:39
 msgctxt "label for button in the gallery widget; should not be longer than ~13 characters long"
 msgid "Add Images"
-msgstr "添加图像"
+msgstr "添加图片"
 
 #: wp-includes/widgets/class-wp-widget-media-video.php:30
 msgid "Displays a video from the media library or from YouTube, Vimeo, or another provider."
@@ -5022,28 +5022,28 @@ msgstr "显示存在媒体库中的视频，或来自YouTube、Vimeo等其他视
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:49
 msgid "Image Widget"
-msgstr "图像小工具"
+msgstr "图片小工具"
 
 #. translators: %d: Widget count.
 #: wp-includes/widgets/class-wp-widget-media-image.php:48
 msgid "Image Widget (%d)"
 msgid_plural "Image Widget (%d)"
-msgstr[0] "图像小工具（%d）"
+msgstr[0] "图片小工具（%d）"
 
 #. translators: %s: URL to media library.
 #: wp-includes/widgets/class-wp-widget-media-image.php:44
 msgid "We can&#8217;t find that image. Check your <a href=\"%s\">media library</a> and make sure it wasn&#8217;t deleted."
-msgstr "找不到指定的图像。请使用<a href=\"%s\">媒体库</a>确认图像没有被删除。"
+msgstr "找不到指定的图片。请使用<a href=\"%s\">媒体库</a>确认图片没有被删除。"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:41
 msgctxt "label for button in the image widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Image"
-msgstr "编辑图像"
+msgstr "编辑图片"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:40
 msgctxt "label for button in the image widget; should preferably not be longer than ~13 characters long"
 msgid "Replace Image"
-msgstr "更换图像"
+msgstr "更换图片"
 
 #: wp-includes/widgets/class-wp-widget-media-gallery.php:41
 msgctxt "label for button in the gallery widget; should not be longer than ~13 characters long"
@@ -5052,7 +5052,7 @@ msgstr "编辑画廊"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:30
 msgid "Displays an image."
-msgstr "显示一张图像。"
+msgstr "显示一张图片。"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:354
 #: wp-includes/widgets/class-wp-widget-media-audio.php:197
@@ -5154,42 +5154,42 @@ msgstr "评论所属文章的密码（如果该文章被密码保护）。"
 #: wp-includes/post.php:1750
 msgctxt "page"
 msgid "Use as featured image"
-msgstr "用作特色图像"
+msgstr "用作特色图片"
 
 #: wp-includes/post.php:1750
 msgctxt "post"
 msgid "Use as featured image"
-msgstr "设置为特色图像"
+msgstr "设置为特色图片"
 
 #: wp-includes/post.php:1749
 msgctxt "page"
 msgid "Remove featured image"
-msgstr "移除特色图像"
+msgstr "移除特色图片"
 
 #: wp-includes/post.php:1749
 msgctxt "post"
 msgid "Remove featured image"
-msgstr "移除特色图像"
+msgstr "移除特色图片"
 
 #: wp-includes/post.php:1748
 msgctxt "page"
 msgid "Set featured image"
-msgstr "设置特色图像"
+msgstr "设置特色图片"
 
 #: wp-includes/post.php:1748
 msgctxt "post"
 msgid "Set featured image"
-msgstr "设置特色图像"
+msgstr "设置特色图片"
 
 #: wp-includes/post.php:1747
 msgctxt "page"
 msgid "Featured image"
-msgstr "特色图像"
+msgstr "特色图片"
 
 #: wp-includes/post.php:1747
 msgctxt "post"
 msgid "Featured image"
-msgstr "特色图像"
+msgstr "特色图片"
 
 #. translators: 1: $sanitize_callback, 2: register_setting()
 #: wp-includes/option.php:2377
@@ -5219,7 +5219,7 @@ msgstr ""
 #. translators: 1: Suggested width number, 2: Suggested height number.
 #: wp-includes/media-template.php:296 wp-includes/media.php:4449
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
-msgstr "建议的图像尺寸：%1$s x %2$s像素。"
+msgstr "建议的图片尺寸：%1$s x %2$s像素。"
 
 #: wp-includes/script-loader.php:869 wp-includes/functions.php:2679
 #: wp-includes/js/dist/media-utils.js:937 wp-admin/includes/file.php:890
@@ -6568,7 +6568,7 @@ msgstr "对象作者的头像URL。"
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1510
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1456
 msgid "Avatar URL with image size of %d pixels."
-msgstr "头像URL，图像尺寸%d像素。"
+msgstr "头像URL，图片尺寸%d像素。"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1494
 msgid "Type of Comment for the object."
@@ -6872,7 +6872,7 @@ msgstr "默认文章形式。"
 
 #: wp-includes/option.php:2126
 msgid "Convert emoticons like :-) and :-P to graphics on display."
-msgstr "将表情符号如:-)和:-P转换为图像显示。"
+msgstr "将表情符号如:-)和:-P转换为图片显示。"
 
 #: wp-includes/option.php:2115
 msgid "WordPress locale code."
@@ -7080,20 +7080,20 @@ msgstr "随页面滚动"
 #: wp-includes/class-wp-customize-manager.php:5550
 #: wp-admin/includes/class-custom-background.php:441
 msgid "Repeat Background Image"
-msgstr "重复背景图像"
+msgstr "重复背景图片"
 
 #: wp-includes/class-wp-customize-manager.php:5527
 #: wp-admin/includes/class-custom-background.php:427
 #: wp-admin/includes/class-custom-background.php:428
 msgid "Image Size"
-msgstr "图像尺寸"
+msgstr "图片尺寸"
 
 #: wp-includes/customize/class-wp-customize-background-position-control.php:93
 #: wp-includes/class-wp-customize-manager.php:5505
 #: wp-admin/includes/class-custom-background.php:408
 #: wp-admin/includes/class-custom-background.php:409
 msgid "Image Position"
-msgstr "图像位置"
+msgstr "图片位置"
 
 #: wp-includes/class-wp-customize-manager.php:5477
 msgctxt "Custom Preset"
@@ -7142,7 +7142,7 @@ msgstr "以%1$s上传您的视频来优化文件大小并获得最佳结果。�
 
 #: wp-includes/class-wp-customize-manager.php:5293
 msgid "If you add a video, the image will be used as a fallback while the video loads."
-msgstr "如果您加入视频，此图像将在视频载入时候补显示。"
+msgstr "如果您加入视频，此图片将在视频载入时候补显示。"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:127
 #: wp-includes/customize/class-wp-customize-themes-section.php:128
@@ -7390,7 +7390,7 @@ msgstr "用户的密码已修改：%s"
 
 #: wp-includes/media-template.php:1482
 msgid "Image crop area preview. Requires mouse interaction."
-msgstr "图像裁剪区域预览，需要鼠标交互。"
+msgstr "图片裁剪区域预览，需要鼠标交互。"
 
 #. translators: %s: Documentation URL.
 #: wp-includes/formatting.php:4864
@@ -7454,7 +7454,7 @@ msgstr "链接已选择。"
 #: wp-includes/class-wp-image-editor-imagick.php:814
 #: wp-includes/class-wp-image-editor-imagick.php:825
 msgid "%s is required to strip image meta."
-msgstr "需要%s来去除图像元数据。"
+msgstr "需要%s来去除图片元数据。"
 
 #: wp-includes/media.php:4412
 msgid "No media items found."
@@ -7613,7 +7613,7 @@ msgstr "更改标志"
 #: wp-includes/class-wp-customize-manager.php:5198
 #: wp-includes/class-wp-customize-manager.php:5203
 msgid "Select logo"
-msgstr "选择图标"
+msgstr "选择标志"
 
 #. translators: %s: document.write()
 #: wp-includes/customize/class-wp-customize-selective-refresh.php:182
@@ -7839,11 +7839,11 @@ msgstr "分享选项"
 
 #: wp-includes/class-wp-xmlrpc-server.php:643
 msgid "Medium-Large size image height"
-msgstr "中大尺寸图像高度"
+msgstr "中大尺寸图片高度"
 
 #: wp-includes/class-wp-xmlrpc-server.php:638
 msgid "Medium-Large size image width"
-msgstr "中大尺寸图像宽度"
+msgstr "中大尺寸图片宽度"
 
 #. translators: %s: Site link.
 #: wp-includes/theme-compat/sidebar.php:105
@@ -8408,7 +8408,7 @@ msgstr "没有项目"
 
 #: wp-login.php:1000
 msgid "Registration confirmation will be emailed to you."
-msgstr "注册确认信息将通过邮件发送给您。"
+msgstr "注册确认信息将通过电子邮件发送给您。"
 
 #: wp-includes/script-loader.php:1082
 msgctxt "password mismatch"
@@ -8432,19 +8432,19 @@ msgstr "非常弱"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:237
 msgid "Add new image"
-msgstr "添加新图像"
+msgstr "新增图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:237
 msgid "Add new header image"
-msgstr "添加新顶栏图像"
+msgstr "添加新页眉图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:236
 msgid "Hide image"
-msgstr "隐藏图像"
+msgstr "隐藏图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:236
 msgid "Hide header image"
-msgstr "隐藏顶栏图像"
+msgstr "隐藏页眉图片"
 
 #: wp-includes/class-wp-customize-manager.php:5161
 #: wp-includes/js/dist/edit-post.js:5510 wp-admin/includes/template.php:2331
@@ -8673,7 +8673,7 @@ msgstr "移除视频轨道"
 
 #: wp-includes/media-template.php:1390
 msgid "Remove poster image"
-msgstr "移除海报图像"
+msgstr "移除海报图片"
 
 #: wp-includes/media-template.php:1353 wp-includes/media-template.php:1367
 msgid "Remove video source"
@@ -8721,7 +8721,7 @@ msgstr "Ctrl+Alt+字母："
 
 #: wp-includes/class-wp-editor.php:1398
 msgid "Inline toolbar (when an image, link or preview is selected)"
-msgstr "内联工具栏（当图像、链接或预览被选中时）"
+msgstr "内联工具栏（当图片、链接或预览被选中时）"
 
 #: wp-includes/class-wp-editor.php:1396
 msgid "Additional shortcuts,"
@@ -9169,7 +9169,7 @@ msgstr "<span class=\"screen-reader-text\">%s</span>无评论"
 #: wp-includes/class-wp-customize-nav-menus.php:1261
 #: wp-admin/includes/nav-menu.php:306
 msgid "Link Text"
-msgstr "链接文本"
+msgstr "链接文字"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:249
 #: wp-includes/customize/class-wp-customize-theme-control.php:251
@@ -9353,7 +9353,7 @@ msgstr "视频"
 #: wp-includes/general-template.php:1689
 msgctxt "post format archive title"
 msgid "Images"
-msgstr "图像"
+msgstr "图片"
 
 #: wp-includes/general-template.php:1687
 msgctxt "post format archive title"
@@ -9430,12 +9430,12 @@ msgstr "颜色"
 #: wp-includes/widgets/class-wp-widget-media-image.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:250
 msgid "No image selected"
-msgstr "未选择图像"
+msgstr "未选择图片"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:245
 #: wp-includes/customize/class-wp-customize-media-control.php:251
 msgid "Select image"
-msgstr "选择图像"
+msgstr "选择图片"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:262
 msgid "Choose file"
@@ -9700,7 +9700,7 @@ msgstr "编辑音频播放列表"
 
 #: wp-includes/media.php:4450
 msgid "There has been an error cropping your image."
-msgstr "在裁剪您的图像时发生了错误。"
+msgstr "裁剪您的图片时发生错误。"
 
 #: wp-includes/media.php:2885
 msgctxt "video or audio"
@@ -9736,12 +9736,12 @@ msgstr "链接CSS类"
 #: wp-includes/widgets/class-wp-widget-media-image.php:121
 #: wp-includes/media-template.php:1199
 msgid "Image CSS Class"
-msgstr "图像CSS类"
+msgstr "图片CSS类"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:152
 #: wp-includes/media-template.php:1195
 msgid "Image Title Attribute"
-msgstr "图像title属性"
+msgstr "图片 title 属性"
 
 #: wp-includes/media-template.php:1191
 msgid "Advanced Options"
@@ -9805,7 +9805,7 @@ msgstr "移动"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:135
 msgid "Set image"
-msgstr "设置图像"
+msgstr "设置图片"
 
 #: wp-includes/media-template.php:1299 wp-includes/media-template.php:1398
 msgctxt "auto preload"
@@ -10134,11 +10134,11 @@ msgstr "音频详情"
 
 #: wp-includes/media.php:4446
 msgid "Crop your image"
-msgstr "裁剪您的图像"
+msgstr "裁剪您的图片"
 
 #: wp-includes/media.php:4445
 msgid "Crop image"
-msgstr "裁剪图像"
+msgstr "裁剪图片"
 
 #: wp-includes/media.php:4444
 msgid "Skip cropping"
@@ -10155,7 +10155,7 @@ msgstr "取消编辑"
 
 #: wp-includes/media.php:4436
 msgid "Image details"
-msgstr "图像详情"
+msgstr "图片详情"
 
 #: wp-includes/media.php:4387
 msgid "Create a new video playlist"
@@ -10183,7 +10183,7 @@ msgstr "没有关联的字幕。"
 
 #: wp-includes/media-template.php:1388
 msgid "Poster Image"
-msgstr "海报图像"
+msgstr "海报图片"
 
 #: wp-includes/media-template.php:1309 wp-includes/media-template.php:1408
 #: wp-includes/js/dist/block-library.js:9448
@@ -10201,7 +10201,7 @@ msgstr "元数据"
 
 #: wp-includes/media-template.php:987
 msgid "Show Images"
-msgstr "显示图像"
+msgstr "显示图片"
 
 #: wp-includes/media-template.php:977
 msgid "Show Artist Name in Tracklist"
@@ -10356,7 +10356,7 @@ msgstr "插入日期、时间"
 
 #: wp-includes/script-loader.php:669 wp-includes/class-wp-editor.php:1223
 msgid "Insert image"
-msgstr "插入图像"
+msgstr "插入图片"
 
 #: wp-includes/class-wp-editor.php:1221
 msgid "Style"
@@ -10486,27 +10486,27 @@ msgstr "已经上传"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:228
 msgid "Current header"
-msgstr "当前页眉图像"
+msgstr "当前页眉图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:167
 msgid "No image set"
-msgstr "未设置图像"
+msgstr "未设置图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:155
 msgid "Randomizing suggested headers"
-msgstr "正在随机化推荐的页眉图像"
+msgstr "正在随机化推荐的页眉图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:153
 msgid "Randomizing uploaded headers"
-msgstr "正在随机化上传的页眉图像"
+msgstr "正在随机化上传的页眉图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:126
 msgid "Randomize suggested headers"
-msgstr "随机化推荐的页眉图像"
+msgstr "随机化推荐的页眉图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:124
 msgid "Randomize uploaded headers"
-msgstr "随机化上传的页眉图像"
+msgstr "随机化上传的页眉图片"
 
 #: wp-includes/admin-bar.php:195
 msgid "https://wordpress.org/support/forum/requests-and-feedback"
@@ -10545,7 +10545,7 @@ msgstr "日出"
 
 #: wp-includes/class-wp-image-editor.php:277
 msgid "Attempted to set image quality outside of the range [1,100]."
-msgstr "提供的图像质量超出范围[1,100]。"
+msgstr "提供的图片质量超出范围[1,100]。"
 
 #: wp-includes/widgets/class-wp-widget-tag-cloud.php:26
 #: wp-includes/js/dist/block-library.js:25238
@@ -10981,11 +10981,11 @@ msgstr "管理音频"
 #: wp-includes/post.php:2855
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
-msgstr[0] "图像<span class=\"count\">（%s）</span>"
+msgstr[0] "图片<span class=\"count\">（%s）</span>"
 
 #: wp-includes/post.php:2853
 msgid "Manage Images"
-msgstr "管理图像"
+msgstr "管理图片"
 
 #: wp-includes/post.php:1746
 msgid "Uploaded to this page"
@@ -11049,7 +11049,7 @@ msgstr "&#8592; 取消相册"
 
 #: wp-includes/media.php:4380
 msgid "Upload images"
-msgstr "上传图像"
+msgstr "上传图片"
 
 #: wp-includes/media-template.php:878 wp-admin/includes/media.php:2598
 msgid "Gallery Settings"
@@ -11181,41 +11181,41 @@ msgstr "该用户不存在。"
 #: wp-includes/class-wp-image-editor-gd.php:460
 #: wp-includes/class-wp-image-editor-gd.php:463
 msgid "Image Editor Save Failed"
-msgstr "图像编辑器保存失败"
+msgstr "图片编辑器保存失败"
 
 #: wp-includes/class-wp-image-editor-gd.php:409
 msgid "Image flip failed."
-msgstr "图像翻转失败。"
+msgstr "图片翻转失败。"
 
 #: wp-includes/class-wp-image-editor-gd.php:379
 msgid "Image rotate failed."
-msgstr "图像旋转失败。"
+msgstr "图片旋转失败。"
 
 #: wp-includes/class-wp-image-editor-gd.php:328
 #: wp-includes/class-wp-image-editor-gd.php:352
 msgid "Image crop failed."
-msgstr "图像剪裁失败。"
+msgstr "图片裁剪失败。"
 
 #: wp-includes/class-wp-image-editor-gd.php:177
 #: wp-includes/class-wp-image-editor-gd.php:203
 msgid "Image resize failed."
-msgstr "图像大小调整失败。"
+msgstr "图片大小调整失败。"
 
 #: wp-includes/class-wp-image-editor-imagick.php:228
 #: wp-includes/class-wp-image-editor-gd.php:111
 msgid "Could not read image size."
-msgstr "无法读取图像尺寸。"
+msgstr "无法读取图片尺寸。"
 
 #: wp-includes/class-wp-image-editor-imagick.php:161
 #: wp-includes/class-wp-image-editor-gd.php:105
 msgid "File is not an image."
-msgstr "文件类型不是图像。"
+msgstr "该文件类型不是图片。"
 
 #: wp-includes/class-wp-image-editor-imagick.php:132
 #: wp-includes/class-wp-image-editor-gd.php:90
 #: wp-includes/class-wp-image-editor-gd.php:99
 msgid "File doesn&#8217;t exist?"
-msgstr "“%s”文件不存在？"
+msgstr "文件不存在？"
 
 #. translators: 1: User's first name, 2: Last name.
 #: wp-includes/user.php:1931
@@ -11366,7 +11366,7 @@ msgstr "抱歉，您不能发布此页面。"
 #: wp-admin/includes/class-custom-image-header.php:502
 #: wp-admin/includes/template.php:2293 wp-admin/includes/template.php:2300
 msgid "Header Image"
-msgstr "页眉图像"
+msgstr "页眉图片"
 
 #: wp-includes/class-wp-xmlrpc-server.php:576
 msgid "Post Thumbnail"
@@ -11415,7 +11415,7 @@ msgstr "一个静态页面"
 #: wp-admin/includes/class-custom-background.php:253
 #: wp-admin/includes/template.php:2321
 msgid "Background Image"
-msgstr "背景图像"
+msgstr "背景图片"
 
 #: wp-includes/class-wp-customize-manager.php:5283
 #: wp-includes/js/dist/block-editor.js:9962
@@ -11431,16 +11431,16 @@ msgstr "背景颜色"
 #: wp-includes/js/dist/block-library.js:10397
 #: wp-admin/includes/class-custom-image-header.php:716
 msgid "Text Color"
-msgstr "文本颜色"
+msgstr "文字颜色"
 
 #: wp-includes/customize/class-wp-customize-media-control.php:247
 msgid "Change image"
-msgstr "更换图像"
+msgstr "更换图片"
 
 #: wp-includes/customize/class-wp-customize-header-image-control.php:140
 #: wp-includes/js/dist/editor.js:7148 wp-includes/js/dist/block-library.js:8181
 msgid "Remove image"
-msgstr "移除图像"
+msgstr "移除图片"
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:784
 #: wp-admin/comment.php:82
@@ -11632,15 +11632,15 @@ msgstr "不可修改文章类型。"
 
 #: wp-includes/class-wp-xmlrpc-server.php:561
 msgid "Image default align"
-msgstr "图像默认对齐方式"
+msgstr "图片默认对齐方式"
 
 #: wp-includes/class-wp-xmlrpc-server.php:556
 msgid "Image default size"
-msgstr "图像默认尺寸"
+msgstr "图片默认尺寸"
 
 #: wp-includes/class-wp-xmlrpc-server.php:551
 msgid "Image default link type"
-msgstr "图像默认链接类型"
+msgstr "图片默认链接类型"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1449
 #: wp-includes/class-wp-xmlrpc-server.php:1928
@@ -11943,7 +11943,7 @@ msgstr "该文件超过了最大大小，请选择其他文件。"
 
 #: wp-includes/script-loader.php:870
 msgid "This file is not an image. Please try another."
-msgstr "该文件不是图像，请选择其他文件。"
+msgstr "该文件不是图片，请选择其他文件。"
 
 #: wp-includes/general-template.php:4429
 msgctxt "admin color scheme"
@@ -12141,7 +12141,7 @@ msgstr "引语"
 #: wp-includes/post-formats.php:103
 msgctxt "Post format"
 msgid "Image"
-msgstr "图像"
+msgstr "图片"
 
 #: wp-includes/post-formats.php:102
 msgctxt "Post format"
@@ -12199,19 +12199,19 @@ msgstr "以下拉菜单显示"
 
 #: wp-includes/class-wp-xmlrpc-server.php:653
 msgid "Large size image height"
-msgstr "大尺寸图像的高度"
+msgstr "大尺寸图片的高度"
 
 #: wp-includes/class-wp-xmlrpc-server.php:648
 msgid "Large size image width"
-msgstr "大尺寸图像的宽度"
+msgstr "大尺寸图片的宽度"
 
 #: wp-includes/class-wp-xmlrpc-server.php:633
 msgid "Medium size image height"
-msgstr "中等尺寸图像的高度"
+msgstr "中等尺寸图片的高度"
 
 #: wp-includes/class-wp-xmlrpc-server.php:628
 msgid "Medium size image width"
-msgstr "中等尺寸图像的宽度"
+msgstr "中等尺寸图片的宽度"
 
 #: wp-includes/class-wp-xmlrpc-server.php:623
 msgid "Crop thumbnail to exact dimensions"
@@ -12638,7 +12638,7 @@ msgstr "URL无效。"
 #: wp-includes/class-wp-image-editor-imagick.php:264
 #: wp-includes/class-wp-image-editor-gd.php:190
 msgid "Could not calculate resized image dimensions"
-msgstr "无法计算调整后图像的尺寸"
+msgstr "无法计算调整后的图片尺寸"
 
 #. translators: %s: Number of completed requests.
 #: wp-includes/post.php:471
@@ -13316,7 +13316,7 @@ msgstr "/"
 #: wp-includes/class-wp-editor.php:1212 wp-includes/js/dist/editor.js:7370
 #: wp-includes/js/dist/block-editor.js:33995 wp-admin/includes/media.php:2929
 msgid "Image"
-msgstr "图像"
+msgstr "图片"
 
 #: wp-includes/script-loader.php:850
 msgid "&lt; Prev"
@@ -13328,11 +13328,11 @@ msgstr "下一页 &gt;"
 
 #: wp-includes/script-loader.php:654
 msgid "Enter a description of the image"
-msgstr "为图像输入描述"
+msgstr "输入图片的描述"
 
 #: wp-includes/script-loader.php:653
 msgid "Enter the URL of the image"
-msgstr "输入图像URL"
+msgstr "输入图片URL"
 
 #: wp-includes/script-loader.php:652
 msgid "Enter the URL"
@@ -13816,7 +13816,7 @@ msgstr "边框"
 
 #: wp-includes/class-wp-editor.php:1220
 msgid "Image description"
-msgstr "图像描述"
+msgstr "图片说明"
 
 #: wp-includes/class-wp-editor.php:1130
 msgid "New document"
@@ -14000,7 +14000,7 @@ msgstr "插入或编辑链接"
 
 #: wp-includes/class-wp-editor.php:1213
 msgid "Insert/edit image"
-msgstr "插入或编辑图像"
+msgstr "插入或编辑图片"
 
 #: wp-includes/class-wp-editor.php:1246
 msgid "Print"
@@ -14535,7 +14535,7 @@ msgstr "显示链接名"
 
 #: wp-includes/widgets/class-wp-widget-links.php:167
 msgid "Show Link Image"
-msgstr "显示链接图像"
+msgstr "显示链接图片"
 
 #: wp-includes/widgets/class-wp-widget-links.php:26
 msgid "Your blogroll"
@@ -14772,7 +14772,7 @@ msgstr[0] "已确认<span class=\"count\">（%s）</span>"
 #: wp-includes/comment-template.php:2383 wp-admin/user-new.php:524
 #: wp-admin/user-edit.php:541
 msgid "Website"
-msgstr "网站网址"
+msgstr "网站地址"
 
 #: wp-includes/taxonomy.php:605
 msgid "Separate tags with commas"
@@ -15071,7 +15071,7 @@ msgstr "查看页面"
 
 #: wp-includes/post.php:2852
 msgid "Images"
-msgstr "图像"
+msgstr "图片"
 
 #. translators: %s: Name of the block author.
 #. translators: %s: Plugin author name.
@@ -15183,7 +15183,7 @@ msgstr "确定"
 
 #: wp-includes/media-template.php:1052 wp-includes/media-template.php:1174
 msgid "Image URL"
-msgstr "图像URL"
+msgstr "图片URL"
 
 #. translators: Default privacy policy heading.
 #: wp-includes/media.php:4360 wp-includes/media.php:4925
@@ -15199,7 +15199,7 @@ msgstr "媒体"
 #: wp-includes/media-template.php:394 wp-includes/media-template.php:669
 #: wp-admin/includes/media.php:1674 wp-admin/includes/media.php:3122
 msgid "Edit Image"
-msgstr "编辑图像"
+msgstr "编辑图片"
 
 #: wp-includes/widgets/class-wp-widget-media-image.php:91
 #: wp-includes/media-template.php:502 wp-includes/media-template.php:585
@@ -15281,11 +15281,11 @@ msgstr "添加媒体"
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3224
 msgid "File &#8220;%s&#8221; is not an image."
-msgstr "“%s”不是图像文件。"
+msgstr "“%s”不是图片文件。"
 
 #: wp-includes/deprecated.php:3215
 msgid "The GD image library is not installed."
-msgstr "未安装GD图像库。"
+msgstr "未安装 GD 图片库。"
 
 #. translators: %s: File name.
 #: wp-includes/deprecated.php:3211
